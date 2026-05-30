@@ -1,10 +1,10 @@
-name: MauiKit Audio Deb
+name: MauiKit System Deb
 
 on:
   workflow_dispatch:
     inputs:
-      mauikitaudioBranch:
-        description: 'MauiKit Audio Branch'
+      mauikitsystemBranch:
+        description: 'MauiKit System Branch'
         required: true
         type: string
       packageCloudRepo:
@@ -52,7 +52,7 @@ jobs:
       - run: ./scripts/build-deb.sh
         env:
           PACKAGE_VERSION: ${{ inputs.packageVersion }}
-          MAUIKIT_AUDIO_BRANCH: ${{ inputs.mauikitaudioBranch }}
+          MAUIKIT_SYSTEM_BRANCH: ${{ inputs.mauikitsystemBranch }}
           TARGET_ARCH: amd64
       - uses: actions/upload-artifact@v4
         with:
@@ -92,7 +92,7 @@ jobs:
       - run: ./scripts/build-deb.sh
         env:
           PACKAGE_VERSION: ${{ inputs.packageVersion }}
-          MAUIKIT_AUDIO_BRANCH: ${{ inputs.mauikitaudioBranch }}
+          MAUIKIT_SYSTEM_BRANCH: ${{ inputs.mauikitsystemBranch }}
           TARGET_ARCH: arm64
       - uses: actions/upload-artifact@v4
         with:
