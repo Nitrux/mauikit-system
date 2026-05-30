@@ -48,12 +48,12 @@ $APT_COMMAND install -y --no-install-recommends \
     libkf6solid-dev \
     libnm-dev \
     libpipewire-0.3-dev \
-    libqcoro6-dev \
-    libqt6keychain1-dev \
     lintian \
     pkg-config \
+    qcoro-qt6-dev \
     qt6-base-dev \
-    qt6-declarative-dev
+    qt6-declarative-dev \
+    qtkeychain-qt6-dev
 
 
 # -- Add package from our repository.
