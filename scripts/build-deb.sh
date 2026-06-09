@@ -70,7 +70,7 @@ checkinstall -D -y \
 	--pakdir=. \
 	--maintainer=uri_herrera@nxos.org \
 	--provides=mauikit-system \
-	--requires="libc6,libkf6bluezqt6,libkf6configcore6,libkf6coreaddons6,libkf6i18n6,libkf6idletime6,libkf6kiogui6,libkf6modemmanagerqt6,libkf6networkmanagerqt6,libkf6notifications6,libkf6service6,libkf6solid6,libnm0,libpipewire-0.3-0t64|libpipewire-0.3-0,libqcoro6core0t64|libqcoro6core0,libqcoro6dbus0t64|libqcoro6dbus0,libqt6core6t64,libqt6dbus6,libqt6gui6,libqt6keychain1,libqt6qml6,libqt6quick6,mauikit \(\>= 4.0.3\)" \
+	--requires="libc6,libkf6bluezqt6,libkf6configcore6,libkf6coreaddons6,libkf6i18n6,libkf6idletime6,libkf6kiogui6,libkf6modemmanagerqt6,libkf6networkmanagerqt6,libkf6notifications6,libkf6service6,libkf6solid6,libnm0,libpipewire-0.3-0t64|libpipewire-0.3-0,libqcoro6core0t64|libqcoro6core0,libqcoro6dbus0t64|libqcoro6dbus0,libqt6core6t64,libqt6dbus6,libqt6gui6,libqt6keychain1,libqt6qml6,libqt6quick6,mauikit \(\>= 4.0.4\)" \
 	--nodoc \
 	--strip=no \
 	--stripso=yes \
