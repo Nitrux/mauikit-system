@@ -26,16 +26,15 @@ $APT_COMMAND install -y --no-install-recommends \
     automake \
     autotools-dev \
     build-essential \
-    checkinstall \
-    cmake \
+    meson \
+    ninja-build \
+    pkg-config \
     curl \
     devscripts \
     equivs \
-    extra-cmake-modules \
     gettext \
     git \
     gnupg2 \
-    libkf6bluezqt-dev \
     libkf6bluezqt-dev \
     libkf6config-dev \
     libkf6coreaddons-dev \
@@ -50,9 +49,9 @@ $APT_COMMAND install -y --no-install-recommends \
     libnm-dev \
     libpipewire-0.3-dev \
     lintian \
-    pkg-config \
     qcoro-qt6-dev \
     qt6-base-dev \
+    qt6-base-dev-tools \
     qt6-declarative-dev \
     qtkeychain-qt6-dev
 
